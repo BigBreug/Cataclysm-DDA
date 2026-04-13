@@ -120,6 +120,12 @@ template <typename E> struct enum_traits;
 
 using bionic_uid = unsigned int;
 
+const int CHARACTER_STAT_MIN = 4;
+const int CHARACTER_STAT_MAX = 20;
+
+const int CHARACTER_AGE_MIN = 16;
+const int CHARACTER_AGE_MAX = 55;
+
 extern int character_max_str;
 extern int character_max_dex;
 extern int character_max_per;
@@ -2215,8 +2221,12 @@ class Character : public Creature, public visitable
          * @param obj item to be reloaded. By design any currently loaded ammunition or magazine is ignored
          * @param empty whether empty magazines should be considered as possible ammo
          * @param radius adjacent map/vehicle tiles to search. 0 for only player tile, -1 for only inventory
+         * @param now if true, only match candidates that can actually be loaded into obj right now
+         *        (i.e. obj has capacity for them); if false, match any type-compatible candidate
+         *        regardless of current capacity.
          */
-        std::vector<item_location> find_ammo( const item &obj, bool empty = true, int radius = 1 ) const;
+        std::vector<item_location> find_ammo( const item &obj, bool empty = true, int radius = 1,
+                                              bool now = true ) const;
 
         /**
          * Searches for weapons and magazines that can be reloaded.
@@ -4309,6 +4319,12 @@ template<>
 struct enum_traits<character_stat> {
     static constexpr character_stat last = character_stat::DUMMY_STAT;
 };
+
+namespace io
+{
+std::string enum_to_full_string( character_stat data );
+} // namespace io
+
 /// Get translated name of a stat
 std::string get_stat_name( character_stat Stat );
 #endif // CATA_SRC_CHARACTER_H
