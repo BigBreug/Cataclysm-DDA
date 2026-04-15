@@ -181,7 +181,7 @@
       [ [ "power_supply", 4 ] ],
       [ [ "solar_cell", 2 ] ],
       [ [ "targeting_module", 1 ] ],
-      [ [ "xray_laser_barrel", 1 ] ],
+      [ [ "afs_av22", 1 ] ],
       [ [ "spidery_legs_big", 1 ] ]
     ]
   }
