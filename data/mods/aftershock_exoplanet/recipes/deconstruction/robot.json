@@ -182,7 +182,6 @@
       [ [ "solar_cell", 2 ] ],
       [ [ "targeting_module", 1 ] ],
       [ [ "xray_laser_barrel", 1 ] ],
-      [ [ "laser_cannon_xray", 1 ] ],
       [ [ "spidery_legs_big", 1 ] ]
     ]
   }
