@@ -133,9 +133,7 @@
     "fault_type": "mechanical_damage",
     "name": { "str": "Heavily bent" },
     "description": "The %s has been heavily bent.",
-    "block_faults": [
-      "fault_steel_pipe_bent"
-    ],
+    "block_faults": [ "fault_steel_pipe_bent" ],
     "item_suffix": "heavily bent",
     "melee_damage_mod": [
       { "damage_id": "cut", "multiply": 0.5 },
