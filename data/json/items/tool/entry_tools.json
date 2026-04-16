@@ -20,7 +20,7 @@
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "BELT_CLIP", "DURABLE_MELEE" ],
     "weapon_category": [ "BATONS" ],
-    "faults": [ { "fault_group": "steel_pipe_short", "weight_mult": 0.2 }],
+    "faults": [ { "fault_group": "steel_pipe_short", "weight_mult": 0.2 } ],
     "melee_damage": { "bash": 19, "cut": 1 },
     "//2": "Based on https://www.amazon.com/dp/B07B4JDQB4"
   },
