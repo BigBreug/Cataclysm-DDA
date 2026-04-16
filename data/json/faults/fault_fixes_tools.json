@@ -83,10 +83,7 @@
     "success_msg": "You succesfully straighten your %s.",
     "time": "60 m",
     "//": "I chose to make this take an hour because the metal needs to cool slowly to prevent brittleness",
-    "faults_removed": [
-      "fault_steel_pipe_bent",
-      "fault_steel_pipe_bent_heavy"
-    ],
+    "faults_removed": [ "fault_steel_pipe_bent", "fault_steel_pipe_bent_heavy" ],
     "mod_damage": -1000,
     "mod_degradation": -50,
     "requirements": [ [ "forging_standard", 1 ], { "qualities": [ { "id": "VISE", "level": 1 } ] } ]
