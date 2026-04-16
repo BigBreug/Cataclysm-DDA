@@ -103,10 +103,7 @@
     "name": "Straighten using heat",
     "success_msg": "You succesfully straighten your %s.",
     "time": "90 m",
-    "faults_removed": [
-      "fault_steel_pipe_staff_bent",
-      "fault_steel_pipe_staff_bent_heavy"
-    ],
+    "faults_removed": [ "fault_steel_pipe_staff_bent", "fault_steel_pipe_staff_bent_heavy" ],
     "mod_damage": -1000,
     "mod_degradation": -50,
     "requirements": [ [ "forging_standard", 1 ], { "qualities": [ { "id": "VISE", "level": 1 } ] } ]
