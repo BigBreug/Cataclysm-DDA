@@ -300,10 +300,6 @@
     "mod_degradation": -25,
     "time": "20 m",
     "skills": { "tailor": 1 },
-    "requirements": [
-      [ "filament", 3 ],
-      [ "fabric_standard_small", 1 ],
-      { "qualities": [ { "id": "SEW", "level": 1 } ] }
-    ]
+    "requirements": [ [ "filament", 3 ], [ "fabric_standard_small", 1 ], { "qualities": [ { "id": "SEW", "level": 1 } ] } ]
   }
 ]
