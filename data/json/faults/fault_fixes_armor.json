@@ -288,10 +288,7 @@
     "mod_degradation": -25,
     "time": "10 m",
     "skills": { "tailor": 1 },
-    "requirements": [
-      [ "filament", 1 ],
-      { "qualities": [ { "id": "SEW", "level": 1 } ] }
-    ]
+    "requirements": [ [ "filament", 1 ], { "qualities": [ { "id": "SEW", "level": 1 } ] } ]
   },
   {
     "type": "fault_fix",
