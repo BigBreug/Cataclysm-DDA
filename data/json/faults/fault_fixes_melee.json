@@ -114,9 +114,7 @@
     "name": "Straighten by hand",
     "success_msg": "You succesfully straighten your %s.",
     "time": "5 m",
-    "faults_removed": [
-      "fault_steel_pipe_staff_bent"
-    ],
+    "faults_removed": [ "fault_steel_pipe_staff_bent" ],
     "mod_damage": -1000,
     "mod_degradation": -25,
     "requirements": [ { "qualities": [ { "id": "VISE", "level": 1 } ] } ]
