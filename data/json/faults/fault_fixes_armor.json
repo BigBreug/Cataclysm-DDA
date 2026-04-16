@@ -289,7 +289,7 @@
     "time": "10 m",
     "skills": { "tailor": 1 },
     "requirements": [
-      [ "thread", 5 ],
+      [ "filament", 1 ],
       { "qualities": [ { "id": "SEW", "level": 1 } ] }
     ]
   },
@@ -304,8 +304,8 @@
     "time": "20 m",
     "skills": { "tailor": 1 },
     "requirements": [
-      [ "thread", 15 ],
-      [ "cotton_patchwork", 1 ],
+      [ "filament", 3 ],
+      [ "fabric_standard_small", 1 ],
       { "qualities": [ { "id": "SEW", "level": 1 } ] }
     ]
   }
