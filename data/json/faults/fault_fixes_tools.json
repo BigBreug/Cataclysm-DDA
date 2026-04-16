@@ -95,9 +95,7 @@
     "success_msg": "You successfully straighten your %s.",
     "time": "5 m",
     "//": "takes much less time, but can only remove minor bends",
-    "faults_removed": [
-      "fault_steel_pipe_bent"
-    ],
+    "faults_removed": [ "fault_steel_pipe_bent" ],
     "mod_damage": -1000,
     "mod_degradation": -25,
     "requirements": [ { "qualities": [ { "id": "VISE", "level": 1 } ] } ]
