@@ -124,6 +124,7 @@
     "description": "There's a tear in the fabric.",
     "item_prefix": "torn",
     "message": "%s's fabric was torn!",
+    "fault_type": "mechanical_damage",
     "degradation_mod": 25,
     "price_modifier": 0.7,
     "armor_mod": [
@@ -138,6 +139,7 @@
     "name": { "str": "Hole" },
     "description": "There's a big hole in the fabric.",
     "message": "A hole is ripped into the %s!",
+    "fault_type": "mechanical_damage",
     "affected_by_degradation": true,
     "degradation_mod": 5,
     "price_modifier": 0.7,
