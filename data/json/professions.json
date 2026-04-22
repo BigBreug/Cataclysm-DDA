@@ -1139,7 +1139,7 @@
     "type": "profession",
     "id": "beekeeper",
     "name": "Beekeeper",
-    "description": "You used to be a professional apiarist, building and maintaining beehives.   Unfortunately, there's little beekeeping to be done during the apocalypse.  Your old equipment might be able to offer some protection from the dead though, and that honey you have lying around still tastes just as sweet.",
+    "description": "You used to be a professional apiarist, building and maintaining beehives.  Unfortunately, there's little beekeeping to be done during the apocalypse.  Your old equipment might be able to offer some protection from the dead though, and that honey you have lying around still tastes just as sweet.",
     "npc_background": "BG_survival_story_WORKER_COMMERCIAL",
     "points": 2,
     "skills": [ { "name": "fabrication", "level": 4 }, { "name": "survival", "level": 4 } ],
